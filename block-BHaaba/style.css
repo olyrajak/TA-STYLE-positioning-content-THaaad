@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 50px;
+    margin: 2%;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+main {
+    padding: 50px;
+    margin: 2%;
+    background-color: rgb(240, 239, 239);
+    border-radius: 20px;
+}
+
+footer {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightcoral;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+div {
+    float: left;
+}
+
+.brand {
+    width: 43%;
+}
+
+navigation {
+    width: 63%;
+}
+
+.heading_intro {
+    width: 45%;
+}
+
+
+/* image {
+    width: 55%;
+    height: 30%;
+    float: left;
+} */
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a {
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+p {
+    vertical-align: top;
+    margin: 10px 10px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.post-container {
+    width: 2000px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.colomn {
+    vertical-align: top;
+    width: 640px;
+    height: auto;
+    float: left;
+    margin: 10px 10px;
+}
+
+.thumbnail-image {
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+    float: left;
+}
+
+.heading {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #07154c;
+}
+
+.clearfix:after,
+clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
