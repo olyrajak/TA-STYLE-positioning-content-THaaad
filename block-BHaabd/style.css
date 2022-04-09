@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(224, 223, 223);
+    color: black;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.header {
+    text-align: center;
+    padding: 32px 0;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.section {
+    background-color: white;
+    padding: 20px 0;
+    /* width: 80%; */
+    margin: 2% 20%;
+}
+
+.col {
+    padding: 10px 10px;
+    color: black;
+    float: left;
+    margin: 1.5%;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-size: 38px;
+    color: rgb(51, 51, 51);
+    /* font-weight: bold; */
+}
+
+.p-1 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 4px;
+    color: rgb(51, 51, 51);
+}
+
+.p-2 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+
+.p-3 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+
+.p-2-left {
+    margin-left: 36px;
+}
+
+.clearfix::after,
+clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.col1 {
+    width: 12.5%;
+}
+
+.col2 {
+    width: 60%;
+}
+
+.col3 {
+    width: 12.5%;
+}
